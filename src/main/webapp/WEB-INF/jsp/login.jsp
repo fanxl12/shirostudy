@@ -11,6 +11,11 @@
     <title>登录</title>
 </head>
 <body>
-
+<h2>${msg}</h2>
+<form method="post">
+    userName:<input type="text" name="username"/><br/>
+    passWord:<input type="password" name="password"/> <br/>
+    <input type="submit"/>
+</form>
 </body>
 </html>
